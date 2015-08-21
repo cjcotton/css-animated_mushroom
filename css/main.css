@@ -5,7 +5,9 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-image: url("../img/mushroom.png");
-  -webkit-animation: mushroomLeftLeft 10s 1;
+  -webkit-animation: mushroomLeft 10s 1;
+  -moz-animation: mushroomLeft 10s 1;
+  -o-animation: mushroomLeft 10s 1;
   animation: mushroomLeft 10s 1;
   animation-fill-mode: forwards;
 }
